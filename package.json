@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-couchdb",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Adds support for CouchDB design document JavaScript files",
   "keywords": [
     "eslint",
