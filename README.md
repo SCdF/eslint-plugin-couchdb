@@ -38,9 +38,6 @@ Recommended `.eslintrc` file:
 ```json
 {
   "extends": "eslint:recommended",
-  "env": {
-    "couchdb/couchdb": true,
-  },
   "plugins": ["couchdb"]
 }
 ```
@@ -54,9 +51,6 @@ If you are deploying to CouchDB you should constrain yourself to ES5 only.
 ```json
 {
   "extends": "eslint:recommended",
-  "env": {
-    "couchdb/couchdb": true,
-  },
   "plugins": ["couchdb"],
   "parserOptions": {
     "ecmaVersion": 5,

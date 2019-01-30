@@ -12,14 +12,15 @@
   "author": "Stefan du Fresne",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "eslint lib/ tests/"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "~3.9.1",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "eslint-plugin-couchdb": "."
   },
   "engines": {
     "node": ">=0.10.0"
