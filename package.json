@@ -10,16 +10,14 @@
     "pouchdb"
   ],
   "author": "Stefan du Fresne",
+  "repository": "https://github.com/scdf/eslint-plugin-couchdb",
   "main": "lib/index.js",
   "scripts": {
     "test": "eslint lib/ tests/"
   },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "~3.9.1",
-    "mocha": "^3.1.2",
     "eslint-plugin-couchdb": "."
   },
   "engines": {
